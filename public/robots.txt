@@ -1,0 +1,41 @@
+# Test ortamı için tüm botlar engellenmiştir
+User-agent: *
+Disallow: /
+
+# Özel bot engellemeleri
+User-agent: Googlebot
+Disallow: /
+
+User-agent: Bingbot
+Disallow: /
+
+User-agent: Slurp
+Disallow: /
+
+User-agent: DuckDuckBot
+Disallow: /
+
+User-agent: Baiduspider
+Disallow: /
+
+User-agent: YandexBot
+Disallow: /
+
+User-agent: facebookexternalhit
+Disallow: /
+
+User-agent: Twitterbot
+Disallow: /
+
+User-agent: LinkedInBot
+Disallow: /
+
+User-agent: WhatsApp
+Disallow: /
+
+User-agent: Telegrambot
+Disallow: /
+
+# Sitemap yok
+Sitemap: none
+

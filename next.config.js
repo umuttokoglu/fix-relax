@@ -9,6 +9,20 @@ const nextConfig = {
       },
     ],
   },
+  // Test ortamı için bot engellemeleri
+  async headers() {
+    return [
+      {
+        source: '/:path*',
+        headers: [
+          {
+            key: 'X-Robots-Tag',
+            value: 'noindex, nofollow, noarchive, nosnippet, noimageindex, nocache',
+          },
+        ],
+      },
+    ]
+  },
 }
 
 module.exports = nextConfig
